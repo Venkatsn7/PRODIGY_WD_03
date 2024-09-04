@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="title">Tic Tac Toe</div>
+
+<div class="game-area">
+  <div class="container">
+    <div class="board">
+      <div class="cell" id="cell1"></div>
+      <div class="cell" id="cell2"></div>
+      <div class="cell" id="cell3"></div>
+      <div class="cell" id="cell4"></div>
+      <div class="cell" id="cell5"></div>
+      <div class="cell" id="cell6"></div>
+      <div class="cell" id="cell7"></div>
+      <div class="cell" id="cell8"></div>
+      <div class="cell" id="cell9"></div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <select id="mode">
+      <option value="pvp">Player vs Player</option>
+      <option value="pvc">Player vs AI</option>
+    </select>
+    <input type="text" id="player1" placeholder="Enter Player 1 (X) Name">
+    <input type="text" id="player2" placeholder="Enter Player 2 (O) Name" disabled>
+    <button id="play">Play</button>
+  </div>
+</div>
+
+</body>
+</html>
